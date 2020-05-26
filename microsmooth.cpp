@@ -62,7 +62,7 @@ uint16_t* ms_init(uint8_t algo)
     }
 }
 
-void deinit(uint16_t *ptr)
+void ms_deinit(uint16_t *ptr)
 {
     free(ptr);
 }
